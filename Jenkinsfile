@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout'){
       steps {
-        git url: 'https://github.com/eoghanduffy/vat-calculator.git',
+        git url: 'https://github.com/eoghanduffy/vat-calculator',
           branch: 'main'
       }
     }
